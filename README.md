@@ -1,2 +1,2 @@
-# e_learning platform design
-Hello everyone
+# e_learning platform : design brunch
+summer internship: Hello everyone
