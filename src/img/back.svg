@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="6093" viewBox="0 0 1920 6093">
+  <defs>
+    <filter id="Path_6" x="1823.266" y="3040.151" width="207.729" height="195.677" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.522"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-index_13">
+      <rect width="1920" height="6093"/>
+    </clipPath>
+  </defs>
+  <g id="index_13" data-name="index – 13" clip-path="url(#clip-index_13)">
+    <rect id="Rectangle_81" data-name="Rectangle 81" width="1920" height="6093" fill="#fff"/>
+    <g id="Group_52" data-name="Group 52">
+      <path id="Subtraction_2" data-name="Subtraction 2" d="M2011-2869H-287v-647.078c230.142-29.023,452.346-71.951,660.441-127.591,204.569-54.7,394.92-121.507,565.767-198.574,170.542-76.929,320.866-163.724,446.8-257.972,127.673-95.552,229.8-198.434,303.53-305.785H2011v1537Z" transform="translate(287 8962)" fill="#edf8f8"/>
+      <rect id="Rectangle_79" data-name="Rectangle 79" width="2901.123" height="444" transform="matrix(0.809, 0.588, -0.588, 0.809, -91.715, 1168.559)" fill="#edf8f8"/>
+      <rect id="Rectangle_80" data-name="Rectangle 80" width="2720.928" height="444" transform="translate(2242.341 3412.872) rotate(151)" fill="#edf8f8"/>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_6)">
+        <path id="Path_6-2" data-name="Path 6" d="M0,0,88.661,11.021l41.472,88.79L-.6,99.362Z" transform="matrix(-0.87, 0.48, -0.48, -0.87, 2007.97, 3149.24)" fill="#03a1a7"/>
+      </g>
+    </g>
+  </g>
+</svg>

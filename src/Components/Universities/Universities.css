@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.univs {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.univs .container {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+
+.title-univs {
+    font-size: 58px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    text-shadow: 0 3px 6px #003638;
+    color: #003638;
+}
+
+
+.big {
+    display: flex;
+    justify-content: center;
+}
+
+.small1 {
+    flex: 1;
+}
+
+.small1 {
+    flex: 2;
+}
+
+
+.M {
+    background-color: #F3F2C9;
+    border-radius: 3.39vh;
+    border-color: #707070;
+    height: 10.73vh;
+    width: 61.82vh;
+    margin-left: auto;
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.k {
+    left: 50%;
+    transform: translate(-50%)
+}
+
+
+.imgs {
+    flex: 0.5;
+    width: 40px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.ps {
+    flex: 3;
+    position: relative;
+    top: 60%;
+    transform: translate(0, -50%);
+    font-size: 1.9vw;
+    color: #03393B;
+    font-style: bold;
+    text-align: center;
+    font-weight: 500;
+
+}
