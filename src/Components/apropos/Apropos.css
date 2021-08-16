@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.apropos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+
+
+
+
+.apropos .row .title-apropos {
+    font-size: 5vw;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'DM Sans';
+    color: #003638;
+
+    /*text-align: left;
+   transform: translate(0, 30%);
+    margin-left: 30px; */
+}
+
+
+.apropos .row .title-apropos span {
+
+    font-family: 'DM Sans';
+    color: #03A1A7;
+    font-family: 'forte';
+
+    /*text-align: left;
+   transform: translate(0, 30%);
+    margin-left: 30px; */
+}
+
+
+.apropos .row p {
+    font-size: 2vw;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'DM Sans';
+    color: #003638;
+    flex: 2;
+    text-align: left;
+    transform: translate(0, 30%);
+    margin-left: 4.07vh;
+}
+
+.apropos .row img {
+    width: 64.67vh;
+    height: 64.67vh;
+    flex: 1;
+
+}
+
+.apropos .row {
+    display: flex;
+    width: 130%;
+    position: relative;
+    right: 50%;
+    transform: translate(28%)
+}
