@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 40px;
+
+
+}
+
+label {}
+
+.Container {
+
+    width: 127.71vh;
+    max-width: 127.71vh;
+    margin: 50px;
+
+
+}
+
+.Container .question {
+    font-size: 2.6vw;
+    color: #DBB5B2;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'forte';
+}
+
+.Container .titre {
+    font-size: 5.53vw;
+    font-weight: bold;
+    text-align: center;
+    color: #055052;
+}
+
+.parag {
+    font-size: 1.9vw;
+    color: #055052;
+}
+
+.parag .p2 {
+
+    text-align: center;
+    position: relative;
+    top: -1.5vh;
+
+}
+
+.Container form {
+    padding: 50px 0 0 0 0;
+    height: 82.19vh;
+    width: 82.19vh;
+    max-height: 880px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-left: 50%;
+    margin-bottom: 50px;
+    transform: translate(-50%, 0);
+    background-color: #fff;
+}
+
+.espace {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.Container form .form-row {
+    display: flex;
+    margin: 32px;
+}
+
+form .form-row .input-data {
+    width: 100%;
+    height: 50px;
+    margin: 0 20px;
+    position: relative;
+}
+
+form .form-row .textarea {
+    height: 150px;
+}
+
+.input-data input,
+.textarea textarea {
+    display: block;
+    height: 80%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    /*border-bottom: 2px solid rgba(0,0,0,0.12);*/
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 10px;
+}
+
+
+.textarea textarea {
+    resize: none;
+    padding-top: 10px;
+}
+
+/* animation
+.input-data input:focus ~label,
+.textarea textarea:focus ~label,
+.input-data input:valid ~label,
+.textarea textarea:valid ~label{
+    transform: translateY(-20px);
+    color: royalblue;
+    font-size: 14px;
+    
+}*/
+.input-data label {
+    color: #003638;
+    position: absolute;
+    bottom: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    left: 7px;
+
+    text-align: left;
+}
+
+.textarea label {
+    color: #003638;
+    width: 100%;
+    bottom: 142px;
+}
+
+.input-data .underline {
+    color: #d10000;
+    font-size: 12px;
+    text-align: left;
+}
+
+/*   
+
+.input-data .underline:before,
+.input-data .underline:after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #3498db;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before, .underline:after, 
+.textarea textarea:focus ~ .underline:before, .underline:after,
+.input-data input:valid ~ .underline:before, .underline:after, 
+.textarea textarea:valid ~.underline:before, .underline:after{
+    transform: scaleX(1);
+}*/
+.submit-btn .input-data {
+    position: relative;
+    left: 50%;
+    transform: translate(-55%);
+    height: 40px !important;
+    width: 75% !important;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.submit-btn .input-data .inner {
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+
+    background: rgba(219, 181, 178, 0.72);
+    transition: all 0.3s;
+
+}
+
+.submit-btn .input-data:hover .inner {
+    left: 0;
+}
+
+.submit-btn .input-data input {
+    position: relative;
+    z-index: 2;
+    background: none;
+    border: none;
+    color: #003638;
+    font-size: 17px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+@media (max-width: 700px) {
+    .Container .text {
+        font-size: 30px;
+    }
+
+    .Container form {
+        padding: 10px 0 0 0 0;
+        /* margin: 0 10px 0 10px; */
+    }
+
+    .Container form .form-row {
+        display: block;
+    }
+
+    form .form-row .input-data {
+        margin: 35px 0 !important;
+
+    }
+
+    .submit-btn .input-data {
+        width: 40% !important;
+        top: -30px !important;
+        left: 50% !important;
+        transform: translate(-55%);
+    }
+}
