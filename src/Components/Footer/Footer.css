@@ -1,0 +1,50 @@
+.col {}
+
+
+.liens {
+    color: #F3F2C9;
+}
+
+.titles {
+    margin: 1vw;
+    color: #F3F2C9;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.liens li {
+    font-size: 1vw !important;
+}
+
+.green-back {
+    background-color: #003638;
+    height: 23vw;
+}
+
+
+.list-unstyled li {
+    color: #F3F2C9;
+
+}
+
+
+.logo {
+    font-family: 'forte';
+    color: #F3F2C9;
+    font-size: 2.5vw;
+    font-weight: bold;
+    margin: 1vw;
+
+}
+
+.droit {
+    font-size: 1.5vw;
+    color: #F3F2C9;
+}
+
+
+hr {
+    color: #F3F2C9;
+    height: 2px !important;
+    margin: 0.5vh;
+}
