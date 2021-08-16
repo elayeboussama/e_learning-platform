@@ -1,2 +1,2 @@
-# e_learning platform : front-end brunch
+# e_learning platform
 summer internship: Hello everyone
