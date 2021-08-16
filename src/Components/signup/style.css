@@ -1,0 +1,270 @@
+* {
+    font-family: 'DM Sans';
+}
+
+
+.popupSign {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.LogblocSign {
+    margin: 50px;
+    padding: 100px;
+    position: relative;
+    padding: 4.347vh;
+    width: 73.77vh;
+    height: 94.70vh;
+    border-radius: 5.57vh;
+    background-color: #fff;
+    box-shadow: 0px 0px 3.396vh rgba(0, 0, 0, 0.31);
+}
+
+.btn-close {
+    position: absolute;
+    right: 20px;
+}
+
+.TitleSign {
+    font-size: 5.027vh;
+    color: #003638;
+    font-weight: bold;
+
+}
+
+.coordsSign {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.NomSign {
+    display: inline-block;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 2vh;
+    margin-right: 3.8vh;
+}
+
+
+
+.LableNomSign {
+    font-size: 3.26vh;
+    font-weight: 500;
+    color: #03A1A7;
+}
+
+.InputNomSign {
+    height: 6.79vh;
+    width: 27.17vh;
+    border-radius: 3.668vh;
+    border: 1px solid #707070;
+    padding-inline-start: 2.71vh;
+    padding-inline-end: 2.71vh;
+}
+
+.InputNomSign::placeholder {
+    font-size: 2vh;
+}
+
+
+.PrenomSign {
+    display: inline-block;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 2vh;
+}
+
+
+
+.LablePrenomSign {
+    font-size: 3.26vh;
+    font-weight: 500;
+    color: #03A1A7;
+    /*margin-left: 2.717vh;*/
+}
+
+.InputPrenomSign {
+    height: 6.79vh;
+    width: 27.17vh;
+    border-radius: 3.668vh;
+    border: 1px solid #707070;
+    padding-inline-start: 2.71vh;
+    padding-inline-end: 2.71vh;
+}
+
+.InputPrenomSign::placeholder {
+    font-size: 2vh;
+}
+
+
+
+.EmailSign {
+    display: inline-block;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1vh;
+}
+
+
+
+.LableEmailSign {
+    font-size: 3.26vh;
+    font-weight: 500;
+    color: #03A1A7;
+
+}
+
+.InputEmailSign {
+    height: 6.79vh;
+    width: 58vh;
+    border-radius: 3.668vh;
+    border: 1px solid #707070;
+    padding-inline-start: 2.71vh;
+    padding-inline-end: 2.71vh;
+}
+
+.InputEmailSign::placeholder {
+    font-size: 2vh;
+}
+
+
+
+
+.MDPSign {
+    display: inline-block;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1vh;
+}
+
+
+.LableMDPSign {
+    font-size: 3.26vh;
+    font-weight: 500;
+    color: #03A1A7;
+}
+
+
+.InputMDPSign {
+    height: 6.79vh;
+    width: 58vh;
+    border-radius: 3.66vh;
+    border: 1px solid #707070;
+    padding-inline-start: 2.71vh;
+    padding-inline-end: 2.71vh;
+}
+
+
+.InputMDPSign::placeholder {
+    font-size: 2vh;
+}
+
+
+
+.VMDPSign {
+    display: inline-block;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1vh;
+}
+
+
+.LableVMDPSign {
+    font-size: 3.26vh;
+    font-weight: 500;
+    color: #03A1A7;
+}
+
+
+.InputVMDPSign {
+    height: 6.79vh;
+    width: 58vh;
+    border-radius: 3.66vh;
+    border: 1px solid #707070;
+    padding-inline-start: 2.71vh;
+    padding-inline-end: 2.71vh;
+}
+
+
+.InputVMDPSign::placeholder {
+    font-size: 2vh;
+}
+
+
+.TypeSign {
+    display: inline-block;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1vh;
+}
+
+
+.LableTypeSign {
+    font-size: 3.26vh;
+    font-weight: 500;
+    color: #03A1A7;
+}
+
+
+.InputTypeSign {
+    height: 6.79vh;
+    width: 58vh;
+    border-radius: 3.66vh;
+    border: 1px solid #707070;
+    padding-inline-start: 2.71vh;
+    padding-inline-end: 2.71vh;
+}
+
+
+
+
+
+.LastSecttionSign {
+    margin-top: 2.71vh;
+
+}
+
+
+.forgetSign {
+    text-decoration: none;
+    color: #EB918A;
+    font-size: 2.03vh;
+    font-weight: 500;
+}
+
+.SeconnecterSign {
+    font-display: inline-block;
+    margin: 2.71vh;
+}
+
+.BtnSeconnecterSign {
+    color: #fff;
+    font-size: 1.63vh;
+    border: 1px solid #055052;
+    background-color: #53B8BB;
+    border-radius: 2.44vh;
+    width: 12vh;
+    height: 3.125vh;
+    margin-left: 1vh;
+}
+
+.SinscritBtnSign {
+    color: #fff;
+    font-size: 2.71vh;
+    background-color: #055052;
+    border-radius: 2.445vh;
+    width: 21.059vh;
+    height: 4.619vh;
+    border: none;
+}
