@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.backimg {
+    position: absolute;
+    top: 0;
+    z-index: -5;
+}
+
+
+.back {
+    position: relative;
+    width: 100%;
+}
+
+
+
+/* .nav {
+    position: relative;
+    z-index: 5;
+} */
+
+main {
+    position: relative;
+    z-index: 0;
+    top: 0;
+    width: 100%;
+    min-height: 1154px;
+    align-items: center;
+
+}
+
+.test {
+    height: 300px;
+}
+
+.log .sign .forgot {
+    z-index: 7;
+}
